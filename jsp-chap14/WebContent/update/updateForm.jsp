@@ -21,7 +21,6 @@
   			<td colspan="4"><input type="submit" value="변경" /></td>
   		</tr>
 	</table>
-
 	
 </form>
 
