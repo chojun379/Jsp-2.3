@@ -30,7 +30,7 @@ public class JdbcUtil {
 	public static void close(Connection conn) {
 		if(conn != null) {
 			try {
-				conn.close();
+				conn.rollback();
 			} catch(SQLException ex) {
 				
 			}
